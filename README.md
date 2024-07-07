@@ -1,4 +1,4 @@
-# fpga-blockchain  
+# FPGA_BlockChain  
 
 The purpose of this project is to implement a Key-Value store on FPGA
 using Cuckoo Hashing. A Key-Value pair(KVP) is a fundamental data representation of two associated data items: a key and a value, where the key acts as
