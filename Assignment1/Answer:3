@@ -1,0 +1,19 @@
+\\ two bit Comparator
+
+module eq2 
+( 
+  input wire [l: 0] a, b, 
+  output wire aeqb 
+); 
+
+// internul signal declaration 
+wire eO, el ; 
+
+// instantiate ~H'O I- bit comparators 
+eql eq-bit0-unit (.i0(a[0]), .i1(b[0]) , . eq(e0)) ; 
+eqi eq-bitl-unit (.eq(e1), .i0(a[1]), .il(b[1])); 
+
+// a and b are equal if individual bits are equal 
+assign aeqb = e0 & e1; 
+
+endmodule
