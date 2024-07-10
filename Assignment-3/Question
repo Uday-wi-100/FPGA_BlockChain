@@ -1,1 +1,6 @@
-hfj
+# # Transmitter Module: 
+This module receives the data in the form of an 8 bit array and the start, stop and parity bit and then transfers it to the receiver module.
+
+# # Receiver Module: 
+This module receives the data from the Transmitter module, samples the data to only store the middle of every tick and then remove the start, 
+stop and parity bits and the transfers the data bus to the receiving end.
