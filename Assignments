@@ -1,1 +1,15 @@
 There are 3 Assignments
+
+
+Assignment-1
+This assignment was done with the goal to get familiar with the Verilog HDL. One bit comparator, Two bit comparator, eight bit comparator, one bit adder and eight bit adder were implemented.
+
+Assignment-2
+This assignment involved the implementation of Cuckoo hashing using Verilog, and its testing using a testbench. Cuckoo Hashing is a form of open addressing in which each non-empty cell of a hash table contains a key-value pair.A hash function is used to determine location for each key and its presence in the table can be determined by examining the cell of that table.It is a technique for resolving collisions in hash tables that produces a dictionary with constant-time worst-case lookup and deletion operations as well as amortized constant-time insertion operations.
+
+Assignment-3
+Assignment 3 involved implementation of UART transmitter and reciever modules. These modules were tested using a testbench. UART stands for Universal Asynchronous Receiver-Transmitter, which is a computer hardware for asynchronous serial communication in which the transmission speeds are configurable. It is based on serial data transfer, which involves bit by bit transfer of the data bits, from the least significant bit to the most significant bit. UART is an asynchronous communication protocol, viz. There is no clock synchronisation between the receiving and transmitting UARTs. Thus both the receiving and transmitting systems must agree on a predecided but configurable frequency, called the ‘Baud rate’.The UART makes use of Start bit and Stop bit to handle the timing of data transmission.
+
+Transmitter Module: This module receives the data in the form of an 8 bit array and the start, stop and parity bit and then transfers it to the receiver module.
+
+Receiver Module: This module receives the data from the Transmitter module, samples the data to only store the middle of every tick and then remove the start, stop and parity bits and the transfers the data bus to the receiving end.
