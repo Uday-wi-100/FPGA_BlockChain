@@ -1,0 +1,20 @@
+\\ one bit comparator
+module eql 
+// 1/0 ports 
+( 
+  input wire iO, il , 
+  output wire eq
+);
+
+// signal declaration 
+wire PO, pl; 
+
+// body 
+// sum of two product terms 
+assign eq = pO I pl; 
+
+// product terms 
+assign pO = - iO & - il ; 
+assign pl = iO & il ; 
+
+endmodule 
