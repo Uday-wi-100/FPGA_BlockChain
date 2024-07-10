@@ -1,4 +1,4 @@
-\\ Half bit Adder
+\\ One bit Half bit Adder
 
 module Half_bit_Adder(A, B, Sum, Carry);
 
